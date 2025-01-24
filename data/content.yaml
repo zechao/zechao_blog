@@ -1,138 +1,95 @@
 BasicInfo:
-  FirstName: Inês
-  LastName: Almeida
-  Photo: img/avatar.jpg
+  FirstName: Zechao
+  LastName: Jin
+  Photo: /img/zechao.jpg
   Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 789
     - Icon: fas fa-envelope
-      Info: contact@ines-almeida.com
+      Info: zechao158@gmail.com
     - Icon: fas fa-globe
-      Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
+      Info: <a class="contact__link" href="https://devzechao.com" target="_blank">devzechao.com</a>
     - Icon: fas fa-map-marker-alt
-      Info: Portugal
+      Info: Palma de Mallorca, Spain
 
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Profile: Over 7 years of experience as a Golang backend engineer. Passionate about technologies including frontend, backend, data science, and DevOps.
 
 Experience:
-  - Employer: Super Cool Company
-    Place: Oxford, UK
+  - Employer: AREX Markets and Bankable
+    Place: Remote
     Positions:
-      - Title: Software Engineer
-        Date: Jan 2020 - Present
+      - Title: Mid-Senior Backend Engineer (Golang)
+        Date: June 2021 – Present
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
-      - Title: Software Tester
-        Date: Mar 2019 - Jan 2020
-        Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
-  - Employer: Another super cool company
-    Place: Lisbon, PT
+          - Built Golang microservices to automate company onboarding processes and workflows including automated contract generation and integrated third-party APIs or tools(e.g. Creditsafe, DocSpring), developoing a decision engine to assess credit ratings, insolvency risks and financial health.
+          - Implemented a state machine to manage lead onboarding workflows (e.g., NewLead, Contract Signed).
+          - Improve admin dashboard using Vue.
+      - Badges: [Golang, Protobuf, Redis, Elasticsearch, Grafana, Consul]
+  - Employer: TravelgateX
+    Place: Palma de Mallorca
     Positions:
-      - Title: Flow Cytometry Resource Specialist
-        Date: Jan 2018 - Mar 2019
+      - Title: Backend Engineer (Golang)
+        Date: Apr. 2018 – May. 2021
         Details:
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
-    Class: "experience__extra_padding"
-    Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
+          - Contributed as a team member to developing HotelX microservices, which now handle over 7 billion daily hotel search requests.
+          - Use pprof to benchmark and improve system performance and help companies reduce server expenses
+          - Improved system performance using in-memory caching and Redis.
+          - Used Protobuf for internal data exchange fo internal services, Elasticsearch for logging, and monitoring with Kibana and Grafana. Stored static data (e.g., hotel information) in Elasticsearch.
+      - Title: Integration Engineer (C#)
+        Date: Aug. 2017 – Apr. 2018
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+          - Integrated supplier APIs into the platform using C#, ensuring smooth connectivity and maintenance.
+      - Badges:
+          [Golang, Protobuf, Postgres, VUE, Docker, K8S, AWS, C#, JSON, XML]
 
 Education:
-  - Course: BSc & MSc in Biomedical Engineering and Biophysics
-    Place: University of Lisbon
-    Date: Sep 2012 - Nov 2017
-    Details: Specialised in data analysis
-
-References:
-  - Name: Person One
-    Relation: Co-worker at Super Cool Company
-    Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 790
-    - Icon: fas fa-envelope
-      Info: contact@person-one.com
-    - Icon: fas fa-map-marker-alt
-      Info: Melbourne, Australia
-  - Name: Person Two
-    Relation: Boss at Super Cool Company
-    Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 791
-    - Icon: fas fa-envelope
-      Info: contact@person-two.com
-    - Icon: fas fa-map-marker-alt
-      Info: Sydney, Australia
-
+  - Course: Bachelor of Computer Science
+    Place: Universitat de les Illes Balears
+    Date: 2013 – 2019
+    Details: Developed an AI playing Flappy Bird using a neural network and genetic algorithm. Code available on github
+  - Course: Master of Data Science
+    Place: Universitat Oberta de Catalunya
+    Date: 2020 – 2022
+    Details: Developed a deep learning model for the GBSENSE 2022 Modulation Recognition Challenge. Code available on github
 
 Skills:
   - Family: Programming
     Items:
+      - Golang
       - Python
-      - HTML (including Jinja)
       - Javascript
-      - CSS
-      - SASS
-      - SQL
       - C#
-      - Bash
-      - MATLAB
+      - Java
   - Family: Frameworks
     Items:
-      - Django
-      - Flask
+      - Gin
+      - VUE
       - Hugo
       - React
   - Family: Developer Tools
     Items:
       - Git
       - Docker
-      - Jenkins
+      - K8S
       - AWS
-  - Family: Misc
-    Items:
-      - Adobe Tools
-      - LaTeX
+  # - Family: Misc
+  #   Items:
+  #     - Adobe Tools
+  #     - LaTeX
 
 Languages:
-  - Name: Portuguese
+  - Name: Chinese
     Level: Native
-  - Name: English
-    Level: C2
   - Name: Spanish
-    Level: B1
-  - Name: German
-    Level: B1
+    Level: Fluent
+  - Name: English
+    Level: B2
 
-Diplomas:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
+# Diplomas:
+#   - ISTQB Tester Certification (2019)
+#   - English Cambridge CAE (2009)
 
 Interests:
-  - Bouldering
   - Cooking
-  - Windsurfing
-  - Bossa Nova
+  - Design
+  - Traveling
   - Design
   - Languages
