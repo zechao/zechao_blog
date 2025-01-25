@@ -1,4 +1,4 @@
-baseURL = 'https://devzechao.com/'
+baseURL = 'https://www.devzechao.com/'
 languageCode = 'en-us'
 theme = ["hugo-theme-stack", "almeida-cv"]
 # Theme i18n support
