@@ -7,22 +7,26 @@ BasicInfo:
       Info: zechao158@gmail.com
     - Icon: fas fa-globe
       Info: <a class="contact__link" href="https://devzechao.com" target="_blank">devzechao.com</a>
+    - Icon: fas fa-globe
+      Info: '<a class="contact__link" href="https://github.com/zechao" target="_blank">Github: https://github.com/zechao</a>'
     - Icon: fas fa-map-marker-alt
       Info: Palma de Mallorca, Spain
+    
 
-Profile: Over 7 years of experience as a Golang backend engineer. Passionate about technologies including frontend, backend, data science, and DevOps.
+Profile: Over 7 years of experience as a Golang backend engineer. Passionate about technologies including frontend, backend, data science and DevOps.
 
 Experience:
   - Employer: AREX Markets and Bankable
     Place: Remote
     Positions:
-      - Title: Mid-Senior Backend Engineer (Golang)
+      - Title: Senior Backend Engineer (Golang)
         Date: June 2021 – Present
         Details:
-          - Built Golang microservices to automate company onboarding processes and workflows including automated contract generation and integrated third-party APIs or tools(e.g. Creditsafe, DocSpring), developoing a decision engine to assess credit ratings, insolvency risks and financial health.
-          - Implemented a state machine to manage lead onboarding workflows (e.g., NewLead, Contract Signed).
-          - Improve admin dashboard using Vue.
-      - Badges: [Golang, Protobuf, Redis, Elasticsearch, Grafana, Consul]
+          - Built Golang microservices to automate company onboarding processes and workflows including automated contract generation and integrated third-party APIs or tools(e.g. Creditsafe, DocSpring).
+          - Developed a decision engine to assess credit ratings, insolvency risks and financial health, allow automatically accept/reject company      
+          - Implemented a state machine to manage company onboarding workflows.
+          - Implemented and maintain the admin dashboard using Golang and Vue.
+      - Badges: [Golang, Protobuf, Redis, Elasticsearch, Grafana, Consul, Gin]
   - Employer: TravelgateX
     Place: Palma de Mallorca
     Positions:
@@ -30,7 +34,7 @@ Experience:
         Date: Apr. 2018 – May. 2021
         Details:
           - Contributed as a team member to developing HotelX microservices, which now handle over 7 billion daily hotel search requests.
-          - Use pprof to benchmark and improve system performance and help companies reduce server expenses
+          - Used pprof to benchmark and improved system performance and helped companies reduce server expenses
           - Improved system performance using in-memory caching and Redis.
           - Used Protobuf for internal data exchange fo internal services, Elasticsearch for logging, and monitoring with Kibana and Grafana. Stored static data (e.g., hotel information) in Elasticsearch.
       - Title: Integration Engineer (C#)
@@ -91,5 +95,5 @@ Interests:
   - Cooking
   - Design
   - Traveling
-  - Design
   - Languages
+  - Games
