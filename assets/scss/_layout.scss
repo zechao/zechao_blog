@@ -45,19 +45,3 @@
         }
     }
 }
-.home_button{
-    position: absolute;
-    top: 10px; right: 10px;
-    padding: 10px 20px; 
-    background-color: #8ea885; 
-    color: white; 
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    &:hover{
-        background-color: #718769;
-    }
-    @media print {
-       display: none;
-    }
-}

@@ -1,8 +1,11 @@
 ---
 title: About me
 license: CC BY-NC-ND
-lastmod: '2020-10-09'
 layout: cv 
+url: "/about"
+aliases:          
+  - /resume
+  - /about-me
 menu:
     main: 
         weight: -90

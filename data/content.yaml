@@ -13,46 +13,43 @@ BasicInfo:
       Info: Palma de Mallorca, Spain
     
 
-Profile: Over 7 years of experience as a Golang backend engineer. Passionate about technologies including frontend, backend, data science and DevOps.
+Profile:  I'm a seasoned backend engineer with 7+ years of experience, mainly working with Golang. I love building scalable microservices and robust APIs. I'm also into full-stack development, data science, and DevOps. Always eager to learn and take on new challenges.
 
 Experience:
   - Employer: AREX Markets and Bankable
     Place: Remote
     Positions:
       - Title: Senior Backend Engineer (Golang)
-        Date: June 2021 – Present
+        Date: June 2021 - Present
         Details:
-          - Built Golang microservices to automate company onboarding processes and workflows including automated contract generation and integrated third-party APIs or tools(e.g. Creditsafe, DocSpring).
-          - Developed a decision engine to assess credit ratings, insolvency risks and financial health, allow automatically accept/reject company      
-          - Implemented a state machine to manage company onboarding workflows.
-          - Implemented and maintain the admin dashboard using Golang and Vue.
-      - Badges: [Golang, Protobuf, Redis, Elasticsearch, Grafana, Consul, Gin]
+          - Built Golang event-Driven microservices to automate company onboarding processes and workflows, including automated contract generation and integration with third-party APIs or tools such as Creditsafe, DocSpring, Scrive, The Gazzete public record, etc.           
+          - Developed gRPC and REST API for admin dashboard enabling comprehensive management and access to company info, contracts, pricing configurations, bank accounts, company risk level.
+          - Developed a decision engine to assess credit ratings, insolvency risks, and financial health, allow automatically accept/reject company during onboarding.  
+          - Used AWS SQS/SNS for asynchronous communicationand gRPC for synchronous communication between services, AWS S3 for file storage, Postgres for data and event storage.
+          - Migrate and refactor legacy code written in Javascript(Node) to improve performance and maintainability.
+      - Badges: [Golang, Vue, Protobuf, Docker, K8S,  AWS SQS/SNS, AWS S3, Postgres]
   - Employer: TravelgateX
     Place: Palma de Mallorca
     Positions:
       - Title: Backend Engineer (Golang)
-        Date: Apr. 2018 – May. 2021
+        Date: Apr. 2018 - May. 2021
         Details:
-          - Contributed as a team member to developing HotelX microservices, which now handle over 7 billion daily hotel search requests.
-          - Used pprof to benchmark and improved system performance and helped companies reduce server expenses
+          - Contributed as a team member to developing HotelX microservices using Golang, which now handle over 7 billion daily hotel search requests. The API allows REST and GraphQL queries.
+          - Used pprof for system benchmark, improved system performance and helped companies reduce server expenses.
           - Improved system performance using in-memory caching and Redis.
-          - Used Protobuf for internal data exchange fo internal services, Elasticsearch for logging, and monitoring with Kibana and Grafana. Stored static data (e.g., hotel information) in Elasticsearch.
+          - Used Protobuf for internal data exchange for internal services, Elasticsearch for logging,  monitoring with Kibana and Grafana. Stored static data (e.g., hotel information) in Elasticsearch.
       - Title: Integration Engineer (C#)
-        Date: Aug. 2017 – Apr. 2018
+        Date: Aug. 2017 - Apr. 2018
         Details:
           - Integrated supplier APIs into the platform using C#, ensuring smooth connectivity and maintenance.
       - Badges:
-          [Golang, Protobuf, Postgres, VUE, Docker, K8S, AWS, C#, JSON, XML]
+          [Golang, C#, Elasticsearch, Redis, Protobuf, GraphQL, Docker, JSON, XML]
 
 Education:
-  - Course: Bachelor of Computer Science
-    Place: Universitat de les Illes Balears
-    Date: 2013 – 2019
-    Details: Developed an AI playing Flappy Bird using a neural network and genetic algorithm. Code available on github
-  - Course: Master of Data Science
-    Place: Universitat Oberta de Catalunya
-    Date: 2020 – 2022
-    Details: Developed a deep learning model for the GBSENSE 2022 Modulation Recognition Challenge. Code available on github
+  - Course: Bachelor of Computer Science, Universitat de les Illes Balears
+    Date: 2013 - 2019
+  - Course: Master of Data Science, Universitat Oberta de Catalunya
+    Date: 2020 - 2022
 
 Skills:
   - Family: Programming
@@ -62,22 +59,34 @@ Skills:
       - Javascript
       - C#
       - Java
+      - SQL
   - Family: Frameworks
     Items:
       - Gin
-      - VUE
+      - Vue
       - Hugo
       - React
-  - Family: Developer Tools
+      - .NET
+  - Family: Databases
+    Items:
+      - Postgres
+      - MySQL
+      - Redis
+      - Elasticsearch
+  - Family: DevOps Tools
     Items:
       - Git
+      - Git Actions
       - Docker
       - K8S
       - AWS
-  # - Family: Misc
-  #   Items:
-  #     - Adobe Tools
-  #     - LaTeX
+  - Family: Communication Protocols
+    Items:
+      - Protobuf
+      - GraphQL
+      - REST
+      - gRPC
+
 
 Languages:
   - Name: Chinese
@@ -87,13 +96,9 @@ Languages:
   - Name: English
     Level: B2
 
-# Diplomas:
-#   - ISTQB Tester Certification (2019)
-#   - English Cambridge CAE (2009)
-
 Interests:
   - Cooking
   - Design
   - Traveling
   - Languages
-  - Games
+  - Gaming

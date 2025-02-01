@@ -3,6 +3,7 @@ author = "Hugo Authors"
 title = "Emoji Support"
 date = "2019-03-05"
 description = "Guide to emoji usage in Hugo"
+toc =true
 categories = [
     "Test"
 ]
@@ -48,3 +49,9 @@ The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference
 }
 </style>
 {{< /css.inline >}}
+
+```bash {class="my-class" id="my-codeblock" lineNos=inline tabWidth=2}
+declare a=1
+echo "$a"
+exit
+```
