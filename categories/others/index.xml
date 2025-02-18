@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Others on Zechao Jin</title><link>https://www.devzechao.com/categories/others/</link><description>Recent content in Others on Zechao Jin</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 15 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.devzechao.com/categories/others/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello world</title><link>https://www.devzechao.com/post/first-post/</link><pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate><guid>https://www.devzechao.com/post/first-post/</guid><description>&lt;img src="https://www.devzechao.com/post/first-post/image.png" alt="Featured image of post Hello world" />&lt;h1 id="my-first-blog-post">My First Blog Post
+&lt;/h1>&lt;p>Welcome to my blog! This is my first post, and I want to share a bit about how I built this blog and what you can expect from it in the future.&lt;/p>
+&lt;h2 id="how-i-built-this-blog">How I Built This Blog
+&lt;/h2>&lt;p>I built this blog using &lt;strong>Hugo&lt;/strong>, a fast and flexible static site generator. For the design, I chose &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+>&lt;strong>hugo-theme-stack&lt;/strong>&lt;/a> as the main theme, and for my about page, I used &lt;a class="link" href="https://github.com/ineesalmeida/almeida-cv" target="_blank" rel="noopener"
+>&lt;strong>almeida-cv&lt;/strong>&lt;/a>, which also includes my resume.&lt;/p>
+&lt;p>Here is the result of my &lt;a class="link" href="http://devzechao.com/about/" target="_blank" rel="noopener"
+>About&lt;/a>
+&lt;img src="https://uploads.devzechao.com/blog_image/2025/1738861955659.png"
+loading="lazy"
+alt="picture 0"
+>&lt;/p>
+&lt;p>The site is deployed using &lt;strong>GitHub Pages&lt;/strong>, with &lt;strong>GitHub Actions&lt;/strong> handling the automation for building and deploying the blog. All the images used in my blog are stored in &lt;strong>Cloudflare R2&lt;/strong>, ensuring fast and reliable delivery.&lt;/p>
+&lt;h2 id="whats-next">What’s Next?
+&lt;/h2>&lt;p>I plan to write a detailed post on how I set up this blog, including:&lt;/p>
+&lt;ul>
+&lt;li>Setting up Hugo with multiple themes.&lt;/li>
+&lt;li>Configuring GitHub Pages and GitHub Actions for deployment&lt;/li>
+&lt;li>Storing and serving images with Cloudflare R2&lt;/li>
+&lt;/ul>
+&lt;p>Stay tuned for more updates! If you&amp;rsquo;re interested in building a blog like this, keep an eye out for my upcoming post.&lt;/p></description></item></channel></rss>
